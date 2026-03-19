@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf2f8; /* Un fondo rosa muy claro */
+}
+
+.navbar {
+    background-color: #ec4899; /* Rosa vibrante */
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+li {
+    margin-top: 10px;
+}
