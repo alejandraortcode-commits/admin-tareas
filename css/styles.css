@@ -1,39 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fdf2f8; /* Un fondo rosa muy claro */
+    background-color: #fdf5f7;
+    /* Fondo rosa pálido elegante */
+    color: #4a3b42;
+    /* Texto en un tono oscuro derivado del rosa */
 }
 
 .navbar {
-    background-color: #ec4899; /* Rosa vibrante */
-    padding: 15px 20px;
-    color: white;
+    background-color: #d8759b;
+    /* Rosa oscuro elegante */
+    padding: 20px;
+    color: #ffffff;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
 }
 
 .navbar h2 {
     margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .container {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 40px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 50px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(157, 91, 116, 0.1);
+    text-align: center;
+    /* Centrar contenidos */
 }
 
-input {
-    padding: 10px;
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #d1618c;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #d8b8c4;
+    border-radius: 25px;
+    width: 60%;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #fcf9fa;
+}
+
+input[type="text"]:focus {
+    border-color: #9d5b74;
 }
 
 button {
-    padding: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #d3229e;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background-color: #91073c;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 li {
-    margin-top: 10px;
+    background-color: #fdf5f7;
+    margin-top: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: left;
+    border-left: 5px solid #080104;
+    color: #240416;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(157, 91, 116, 0.1);
 }
